@@ -97,6 +97,7 @@
 		9C279E381F986E8500FBCC96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZZ;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = wangzhangchuan;
 				TargetAttributes = {
@@ -281,6 +282,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QNT5U38WA2;
 				INFOPLIST_FILE = ZhiZaiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cpatain.zhizaiDemo.ZhiZaiDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QNT5U38WA2;
 				INFOPLIST_FILE = ZhiZaiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cpatain.zhizaiDemo.ZhiZaiDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
