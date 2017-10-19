@@ -1,24 +1,23 @@
 //
-//  ViewController.m
+//  ZZTableVC.m
 //  ZhiZaiDemo
 //
 //  Created by wangzhangchuan on 2017/10/19.
 //  Copyright © 2017年 wangzhangchuan. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ZZTableVC.h"
 
-@interface ViewController ()
+@interface ZZTableVC ()
 
 @end
 
-@implementation ViewController
+@implementation ZZTableVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

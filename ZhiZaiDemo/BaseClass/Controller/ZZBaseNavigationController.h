@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZZBaseNavigationController.h
 //  ZhiZaiDemo
 //
 //  Created by wangzhangchuan on 2017/10/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZZBaseNavigationController : UINavigationController
 
 @end
-

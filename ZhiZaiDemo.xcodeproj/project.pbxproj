@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9C279E451F986E8500FBCC96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C279E441F986E8500FBCC96 /* AppDelegate.m */; };
-		9C279E481F986E8500FBCC96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C279E471F986E8500FBCC96 /* ViewController.m */; };
 		9C279E4B1F986E8500FBCC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C279E491F986E8500FBCC96 /* Main.storyboard */; };
 		9C279E4D1F986E8500FBCC96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C279E4C1F986E8500FBCC96 /* Assets.xcassets */; };
 		9C279E501F986E8500FBCC96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C279E4E1F986E8500FBCC96 /* LaunchScreen.storyboard */; };
 		9C279E531F986E8500FBCC96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C279E521F986E8500FBCC96 /* main.m */; };
+		9C279E5F1F98757B00FBCC96 /* FunctionList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C279E5E1F98757B00FBCC96 /* FunctionList.plist */; };
+		9C279E621F9875BD00FBCC96 /* ZZBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C279E611F9875BD00FBCC96 /* ZZBaseTableViewController.m */; };
+		9C279E651F9875CD00FBCC96 /* ZZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C279E641F9875CD00FBCC96 /* ZZBaseViewController.m */; };
+		9C279E681F9875EF00FBCC96 /* ZZBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C279E671F9875EF00FBCC96 /* ZZBaseNavigationController.m */; };
+		9C279E6B1F98760F00FBCC96 /* ZZRootTBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C279E6A1F98760F00FBCC96 /* ZZRootTBVC.m */; };
+		9C279E6E1F9880D100FBCC96 /* ZZTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C279E6D1F9880D100FBCC96 /* ZZTableVC.m */; };
 		AE848625BF5139EE1975885F /* libPods-ZhiZaiDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEC10180653BA56CD4EBC7A /* libPods-ZhiZaiDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -22,13 +27,22 @@
 		9C279E401F986E8500FBCC96 /* ZhiZaiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiZaiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C279E431F986E8500FBCC96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C279E441F986E8500FBCC96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9C279E461F986E8500FBCC96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9C279E471F986E8500FBCC96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9C279E4A1F986E8500FBCC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C279E4C1F986E8500FBCC96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C279E4F1F986E8500FBCC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C279E511F986E8500FBCC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C279E521F986E8500FBCC96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C279E5E1F98757B00FBCC96 /* FunctionList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FunctionList.plist; sourceTree = "<group>"; };
+		9C279E601F9875BD00FBCC96 /* ZZBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBaseTableViewController.h; sourceTree = "<group>"; };
+		9C279E611F9875BD00FBCC96 /* ZZBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBaseTableViewController.m; sourceTree = "<group>"; };
+		9C279E631F9875CD00FBCC96 /* ZZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBaseViewController.h; sourceTree = "<group>"; };
+		9C279E641F9875CD00FBCC96 /* ZZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBaseViewController.m; sourceTree = "<group>"; };
+		9C279E661F9875EF00FBCC96 /* ZZBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBaseNavigationController.h; sourceTree = "<group>"; };
+		9C279E671F9875EF00FBCC96 /* ZZBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBaseNavigationController.m; sourceTree = "<group>"; };
+		9C279E691F98760F00FBCC96 /* ZZRootTBVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZRootTBVC.h; sourceTree = "<group>"; };
+		9C279E6A1F98760F00FBCC96 /* ZZRootTBVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZRootTBVC.m; sourceTree = "<group>"; };
+		9C279E6C1F9880D100FBCC96 /* ZZTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTableVC.h; sourceTree = "<group>"; };
+		9C279E6D1F9880D100FBCC96 /* ZZTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTableVC.m; sourceTree = "<group>"; };
 		E62C7B2C083A0BF02CA5BF00 /* Pods-ZhiZaiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiZaiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiZaiDemo/Pods-ZhiZaiDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,17 +88,66 @@
 		9C279E421F986E8500FBCC96 /* ZhiZaiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9C279E5D1F98754300FBCC96 /* Souces */,
+				9C279E591F98751600FBCC96 /* BaseClass */,
 				9C279E431F986E8500FBCC96 /* AppDelegate.h */,
 				9C279E441F986E8500FBCC96 /* AppDelegate.m */,
-				9C279E461F986E8500FBCC96 /* ViewController.h */,
-				9C279E471F986E8500FBCC96 /* ViewController.m */,
 				9C279E491F986E8500FBCC96 /* Main.storyboard */,
 				9C279E4C1F986E8500FBCC96 /* Assets.xcassets */,
 				9C279E4E1F986E8500FBCC96 /* LaunchScreen.storyboard */,
 				9C279E511F986E8500FBCC96 /* Info.plist */,
 				9C279E521F986E8500FBCC96 /* main.m */,
+				9C279E691F98760F00FBCC96 /* ZZRootTBVC.h */,
+				9C279E6A1F98760F00FBCC96 /* ZZRootTBVC.m */,
 			);
 			path = ZhiZaiDemo;
+			sourceTree = "<group>";
+		};
+		9C279E591F98751600FBCC96 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				9C279E5A1F98751600FBCC96 /* Controller */,
+				9C279E5B1F98751600FBCC96 /* Model */,
+				9C279E5C1F98751600FBCC96 /* View */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		9C279E5A1F98751600FBCC96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C279E601F9875BD00FBCC96 /* ZZBaseTableViewController.h */,
+				9C279E611F9875BD00FBCC96 /* ZZBaseTableViewController.m */,
+				9C279E631F9875CD00FBCC96 /* ZZBaseViewController.h */,
+				9C279E641F9875CD00FBCC96 /* ZZBaseViewController.m */,
+				9C279E661F9875EF00FBCC96 /* ZZBaseNavigationController.h */,
+				9C279E671F9875EF00FBCC96 /* ZZBaseNavigationController.m */,
+				9C279E6C1F9880D100FBCC96 /* ZZTableVC.h */,
+				9C279E6D1F9880D100FBCC96 /* ZZTableVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C279E5B1F98751600FBCC96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C279E5C1F98751600FBCC96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C279E5D1F98754300FBCC96 /* Souces */ = {
+			isa = PBXGroup;
+			children = (
+				9C279E5E1F98757B00FBCC96 /* FunctionList.plist */,
+			);
+			path = Souces;
 			sourceTree = "<group>";
 		};
 		A4441E32A93655BDC035AF40 /* Frameworks */ = {
@@ -159,6 +222,7 @@
 			files = (
 				9C279E501F986E8500FBCC96 /* LaunchScreen.storyboard in Resources */,
 				9C279E4D1F986E8500FBCC96 /* Assets.xcassets in Resources */,
+				9C279E5F1F98757B00FBCC96 /* FunctionList.plist in Resources */,
 				9C279E4B1F986E8500FBCC96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C279E481F986E8500FBCC96 /* ViewController.m in Sources */,
 				9C279E531F986E8500FBCC96 /* main.m in Sources */,
+				9C279E681F9875EF00FBCC96 /* ZZBaseNavigationController.m in Sources */,
+				9C279E6B1F98760F00FBCC96 /* ZZRootTBVC.m in Sources */,
+				9C279E621F9875BD00FBCC96 /* ZZBaseTableViewController.m in Sources */,
 				9C279E451F986E8500FBCC96 /* AppDelegate.m in Sources */,
+				9C279E6E1F9880D100FBCC96 /* ZZTableVC.m in Sources */,
+				9C279E651F9875CD00FBCC96 /* ZZBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +428,7 @@
 				INFOPLIST_FILE = ZhiZaiDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cpatain.zhizaiDemo.ZhiZaiDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.captain.ZhiZaiDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -376,7 +444,7 @@
 				INFOPLIST_FILE = ZhiZaiDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cpatain.zhizaiDemo.ZhiZaiDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.captain.ZhiZaiDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
