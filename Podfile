@@ -8,6 +8,7 @@ pod 'YPTabBarController', '~> 2.2.3'
 pod 'AFNetworking', '~> 3.1.0'
 pod 'FMDB', '~> 2.7.2'
 pod 'SDWebImage'
+pod 'JVFloatLabeledTextField'
 
 end
 

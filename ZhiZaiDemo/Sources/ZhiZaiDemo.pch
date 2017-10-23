@@ -1,0 +1,22 @@
+//
+//  ZhiZaiDemo.pch
+//  ZhiZaiDemo
+//
+//  Created by wangzhangchuan on 2017/10/20.
+//  Copyright © 2017年 wangzhangchuan. All rights reserved.
+//
+
+#ifndef ZhiZaiDemo_pch
+#define ZhiZaiDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "ZZBaseView.h"
+#import "Masonry.h"
+#import "JVFloatLabeledTextField.h"
+
+#define SCREENWIDTH         ([UIScreen mainScreen].bounds.size.width)
+#define SCREENHEIGHT        ([UIScreen mainScreen].bounds.size.height)
+
+#endif /* ZhiZaiDemo_pch */

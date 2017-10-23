@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ClassName</key>
+		<string>ZZSignInVC</string>
+		<key>Description</key>
+		<string>每日签到</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>ZZFundRecordVC</string>
+		<key>Description</key>
+		<string>我的虚拟币记录</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>ZZFlipAnimatoinViewController</string>
+		<key>Description</key>
+		<string>旋转动画</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>ZZTFViewController</string>
+		<key>Description</key>
+		<string>动态输入框</string>
+	</dict>
+</array>
+</plist>

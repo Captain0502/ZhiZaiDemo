@@ -11,5 +11,9 @@
 @interface ZZTableVC : ZZBaseViewController<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *dataTableView;
+@property (nonatomic, strong) NSArray *dataArray;
+
+// 加载数据
+- (void)loadData;
 
 @end
