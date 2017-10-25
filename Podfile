@@ -9,6 +9,7 @@ pod 'AFNetworking', '~> 3.1.0'
 pod 'FMDB', '~> 2.7.2'
 pod 'SDWebImage'
 pod 'JVFloatLabeledTextField'
+pod 'MJRefresh', '~> 3.1.14'
 
 end
 

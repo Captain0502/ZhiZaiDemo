@@ -8,6 +8,6 @@
 
 #import "ZZBaseViewController.h"
 
-@interface ZZTFViewController : ZZBaseViewController
+@interface ZZTFViewController : ZZBaseViewController<UIPickerViewDelegate, UIPickerViewDataSource>
 
 @end

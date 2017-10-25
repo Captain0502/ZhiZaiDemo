@@ -1,0 +1,2 @@
+/Users/wangzhangchuan/Library/Developer/Xcode/DerivedData/ZhiZaiDemo-dmqwyuwocamuaqcenfbdsywymerq/Build/Products/Debug-iphonesimulator/ZhiZaiDemo.app
+iPhone Developer

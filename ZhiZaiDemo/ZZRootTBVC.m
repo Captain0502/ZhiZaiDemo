@@ -96,7 +96,7 @@
     Class c = NSClassFromString(className);
     
     UIViewController *vc = c.new;
-    vc.view.backgroundColor = UIColor.whiteColor; 
+    vc.view.backgroundColor = UIColor.grayColor;
     
     [self.navigationController pushViewController:vc animated:YES];
 }

@@ -36,6 +36,19 @@
 		9C529EF21F99DAB8009457E8 /* ZZFlipAnimatoinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C529EF01F99DAB8009457E8 /* ZZFlipAnimatoinViewController.xib */; };
 		9C529EFA1F99F819009457E8 /* ZZTFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C529EF81F99F819009457E8 /* ZZTFViewController.m */; };
 		9C529EFB1F99F819009457E8 /* ZZTFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C529EF91F99F819009457E8 /* ZZTFViewController.xib */; };
+		9C529F081F9D7D4D009457E8 /* ZZPayWayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C529F071F9D7D4D009457E8 /* ZZPayWayVC.m */; };
+		9C529F0B1F9D7EAB009457E8 /* ZZBindAliPayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C529F0A1F9D7EAB009457E8 /* ZZBindAliPayVC.m */; };
+		9C7060401F9F17C900E6FB2A /* ZZResetPayPasswdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C70603F1F9F17C900E6FB2A /* ZZResetPayPasswdVC.m */; };
+		9C7060541F9F23B800E6FB2A /* ZZMoneyRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7060531F9F23B800E6FB2A /* ZZMoneyRecordVC.m */; };
+		9C7060571F9F247100E6FB2A /* ZZMoneyRecordHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7060561F9F247100E6FB2A /* ZZMoneyRecordHeaderView.m */; };
+		9C70605A1F9F2F7100E6FB2A /* ZZMoneyHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7060591F9F2F7100E6FB2A /* ZZMoneyHistoryVC.m */; };
+		9CF2ED1B1F9DB4F200A0BED0 /* ZZBindBankVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2ED1A1F9DB4F200A0BED0 /* ZZBindBankVC.m */; };
+		9CF2ED1E1F9DB98200A0BED0 /* ZZBankListPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2ED1D1F9DB98200A0BED0 /* ZZBankListPickerView.m */; };
+		9CF2ED251F9DED6C00A0BED0 /* ZZPayPasswdSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2ED241F9DED6C00A0BED0 /* ZZPayPasswdSettingVC.m */; };
+		9CF2ED281F9DF3E100A0BED0 /* ZZEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2ED271F9DF3E100A0BED0 /* ZZEditView.m */; };
+		9CF2ED2B1F9E359F00A0BED0 /* ZZDiyTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2ED2A1F9E359F00A0BED0 /* ZZDiyTF.m */; };
+		9CF2ED2E1F9EE56E00A0BED0 /* ZZPasswdInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2ED2D1F9EE56E00A0BED0 /* ZZPasswdInputView.m */; };
+		9CF2ED351F9F04DB00A0BED0 /* ZZAddPayPasswdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2ED341F9F04DB00A0BED0 /* ZZAddPayPasswdVC.m */; };
 		AE848625BF5139EE1975885F /* libPods-ZhiZaiDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEC10180653BA56CD4EBC7A /* libPods-ZhiZaiDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +104,32 @@
 		9C529EF71F99F819009457E8 /* ZZTFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTFViewController.h; sourceTree = "<group>"; };
 		9C529EF81F99F819009457E8 /* ZZTFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTFViewController.m; sourceTree = "<group>"; };
 		9C529EF91F99F819009457E8 /* ZZTFViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZTFViewController.xib; sourceTree = "<group>"; };
+		9C529F061F9D7D4D009457E8 /* ZZPayWayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPayWayVC.h; sourceTree = "<group>"; };
+		9C529F071F9D7D4D009457E8 /* ZZPayWayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPayWayVC.m; sourceTree = "<group>"; };
+		9C529F091F9D7EAB009457E8 /* ZZBindAliPayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBindAliPayVC.h; sourceTree = "<group>"; };
+		9C529F0A1F9D7EAB009457E8 /* ZZBindAliPayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBindAliPayVC.m; sourceTree = "<group>"; };
+		9C70603E1F9F17C900E6FB2A /* ZZResetPayPasswdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZResetPayPasswdVC.h; sourceTree = "<group>"; };
+		9C70603F1F9F17C900E6FB2A /* ZZResetPayPasswdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZResetPayPasswdVC.m; sourceTree = "<group>"; };
+		9C7060521F9F23B800E6FB2A /* ZZMoneyRecordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMoneyRecordVC.h; sourceTree = "<group>"; };
+		9C7060531F9F23B800E6FB2A /* ZZMoneyRecordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMoneyRecordVC.m; sourceTree = "<group>"; };
+		9C7060551F9F247100E6FB2A /* ZZMoneyRecordHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMoneyRecordHeaderView.h; sourceTree = "<group>"; };
+		9C7060561F9F247100E6FB2A /* ZZMoneyRecordHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMoneyRecordHeaderView.m; sourceTree = "<group>"; };
+		9C7060581F9F2F7100E6FB2A /* ZZMoneyHistoryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMoneyHistoryVC.h; sourceTree = "<group>"; };
+		9C7060591F9F2F7100E6FB2A /* ZZMoneyHistoryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMoneyHistoryVC.m; sourceTree = "<group>"; };
+		9CF2ED191F9DB4F200A0BED0 /* ZZBindBankVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBindBankVC.h; sourceTree = "<group>"; };
+		9CF2ED1A1F9DB4F200A0BED0 /* ZZBindBankVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBindBankVC.m; sourceTree = "<group>"; };
+		9CF2ED1C1F9DB98200A0BED0 /* ZZBankListPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBankListPickerView.h; sourceTree = "<group>"; };
+		9CF2ED1D1F9DB98200A0BED0 /* ZZBankListPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBankListPickerView.m; sourceTree = "<group>"; };
+		9CF2ED231F9DED6C00A0BED0 /* ZZPayPasswdSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPayPasswdSettingVC.h; sourceTree = "<group>"; };
+		9CF2ED241F9DED6C00A0BED0 /* ZZPayPasswdSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPayPasswdSettingVC.m; sourceTree = "<group>"; };
+		9CF2ED261F9DF3E100A0BED0 /* ZZEditView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZEditView.h; sourceTree = "<group>"; };
+		9CF2ED271F9DF3E100A0BED0 /* ZZEditView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZEditView.m; sourceTree = "<group>"; };
+		9CF2ED291F9E359F00A0BED0 /* ZZDiyTF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZDiyTF.h; sourceTree = "<group>"; };
+		9CF2ED2A1F9E359F00A0BED0 /* ZZDiyTF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZDiyTF.m; sourceTree = "<group>"; };
+		9CF2ED2C1F9EE56E00A0BED0 /* ZZPasswdInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPasswdInputView.h; sourceTree = "<group>"; };
+		9CF2ED2D1F9EE56E00A0BED0 /* ZZPasswdInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPasswdInputView.m; sourceTree = "<group>"; };
+		9CF2ED331F9F04DB00A0BED0 /* ZZAddPayPasswdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAddPayPasswdVC.h; sourceTree = "<group>"; };
+		9CF2ED341F9F04DB00A0BED0 /* ZZAddPayPasswdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAddPayPasswdVC.m; sourceTree = "<group>"; };
 		E62C7B2C083A0BF02CA5BF00 /* Pods-ZhiZaiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiZaiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiZaiDemo/Pods-ZhiZaiDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,6 +219,11 @@
 		9C279E421F986E8500FBCC96 /* ZhiZaiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9C70604E1F9F238400E6FB2A /* MoneyRecord */,
+				9C70603A1F9F17B200E6FB2A /* ResetPayPasswd */,
+				9CF2ED2F1F9F04BD00A0BED0 /* AddPayPasswdVC */,
+				9CF2ED1F1F9DED1F00A0BED0 /* PayPasswdSetting */,
+				9C529EFC1F9D7C19009457E8 /* PayWay */,
 				9C529EF31F99F808009457E8 /* FVFTF */,
 				9C07BFE51F998A7D00255CA8 /* SignInPerDay */,
 				9C529EEA1F99DA7E009457E8 /* FlipAnimation */,
@@ -255,7 +299,6 @@
 			isa = PBXGroup;
 			children = (
 				9C279E701F98889000FBCC96 /* Controller */,
-				9C279E711F98889000FBCC96 /* Model */,
 				9C279E721F98889000FBCC96 /* View */,
 			);
 			path = FundRecord;
@@ -268,13 +311,6 @@
 				9C279E741F9888BB00FBCC96 /* ZZFundRecordVC.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		9C279E711F98889000FBCC96 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		9C279E721F98889000FBCC96 /* View */ = {
@@ -350,6 +386,187 @@
 			sourceTree = "<group>";
 		};
 		9C529EF61F99F808009457E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C529EFC1F9D7C19009457E8 /* PayWay */ = {
+			isa = PBXGroup;
+			children = (
+				9C529EFD1F9D7C19009457E8 /* Controller */,
+				9C529EFE1F9D7C19009457E8 /* Model */,
+				9C529EFF1F9D7C19009457E8 /* View */,
+			);
+			path = PayWay;
+			sourceTree = "<group>";
+		};
+		9C529EFD1F9D7C19009457E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C529F061F9D7D4D009457E8 /* ZZPayWayVC.h */,
+				9C529F071F9D7D4D009457E8 /* ZZPayWayVC.m */,
+				9CF2ED191F9DB4F200A0BED0 /* ZZBindBankVC.h */,
+				9CF2ED1A1F9DB4F200A0BED0 /* ZZBindBankVC.m */,
+				9C529F091F9D7EAB009457E8 /* ZZBindAliPayVC.h */,
+				9C529F0A1F9D7EAB009457E8 /* ZZBindAliPayVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C529EFE1F9D7C19009457E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C529EFF1F9D7C19009457E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CF2ED1C1F9DB98200A0BED0 /* ZZBankListPickerView.h */,
+				9CF2ED1D1F9DB98200A0BED0 /* ZZBankListPickerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C70603A1F9F17B200E6FB2A /* ResetPayPasswd */ = {
+			isa = PBXGroup;
+			children = (
+				9C70603B1F9F17B200E6FB2A /* Controller */,
+				9C70603C1F9F17B200E6FB2A /* Model */,
+				9C70603D1F9F17B200E6FB2A /* View */,
+			);
+			path = ResetPayPasswd;
+			sourceTree = "<group>";
+		};
+		9C70603B1F9F17B200E6FB2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C70603E1F9F17C900E6FB2A /* ZZResetPayPasswdVC.h */,
+				9C70603F1F9F17C900E6FB2A /* ZZResetPayPasswdVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C70603C1F9F17B200E6FB2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C70603D1F9F17B200E6FB2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C70604E1F9F238400E6FB2A /* MoneyRecord */ = {
+			isa = PBXGroup;
+			children = (
+				9C70604F1F9F238400E6FB2A /* Controller */,
+				9C7060501F9F238400E6FB2A /* Model */,
+				9C7060511F9F238400E6FB2A /* View */,
+			);
+			path = MoneyRecord;
+			sourceTree = "<group>";
+		};
+		9C70604F1F9F238400E6FB2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C7060521F9F23B800E6FB2A /* ZZMoneyRecordVC.h */,
+				9C7060531F9F23B800E6FB2A /* ZZMoneyRecordVC.m */,
+				9C7060581F9F2F7100E6FB2A /* ZZMoneyHistoryVC.h */,
+				9C7060591F9F2F7100E6FB2A /* ZZMoneyHistoryVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C7060501F9F238400E6FB2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C7060511F9F238400E6FB2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C7060551F9F247100E6FB2A /* ZZMoneyRecordHeaderView.h */,
+				9C7060561F9F247100E6FB2A /* ZZMoneyRecordHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9CF2ED1F1F9DED1F00A0BED0 /* PayPasswdSetting */ = {
+			isa = PBXGroup;
+			children = (
+				9CF2ED201F9DED1F00A0BED0 /* Controller */,
+				9CF2ED211F9DED1F00A0BED0 /* Model */,
+				9CF2ED221F9DED1F00A0BED0 /* View */,
+			);
+			path = PayPasswdSetting;
+			sourceTree = "<group>";
+		};
+		9CF2ED201F9DED1F00A0BED0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CF2ED231F9DED6C00A0BED0 /* ZZPayPasswdSettingVC.h */,
+				9CF2ED241F9DED6C00A0BED0 /* ZZPayPasswdSettingVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9CF2ED211F9DED1F00A0BED0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CF2ED221F9DED1F00A0BED0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CF2ED261F9DF3E100A0BED0 /* ZZEditView.h */,
+				9CF2ED271F9DF3E100A0BED0 /* ZZEditView.m */,
+				9CF2ED291F9E359F00A0BED0 /* ZZDiyTF.h */,
+				9CF2ED2A1F9E359F00A0BED0 /* ZZDiyTF.m */,
+				9CF2ED2C1F9EE56E00A0BED0 /* ZZPasswdInputView.h */,
+				9CF2ED2D1F9EE56E00A0BED0 /* ZZPasswdInputView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9CF2ED2F1F9F04BD00A0BED0 /* AddPayPasswdVC */ = {
+			isa = PBXGroup;
+			children = (
+				9CF2ED301F9F04BD00A0BED0 /* Controller */,
+				9CF2ED311F9F04BD00A0BED0 /* Model */,
+				9CF2ED321F9F04BD00A0BED0 /* View */,
+			);
+			path = AddPayPasswdVC;
+			sourceTree = "<group>";
+		};
+		9CF2ED301F9F04BD00A0BED0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CF2ED331F9F04DB00A0BED0 /* ZZAddPayPasswdVC.h */,
+				9CF2ED341F9F04DB00A0BED0 /* ZZAddPayPasswdVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9CF2ED311F9F04BD00A0BED0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CF2ED321F9F04BD00A0BED0 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -500,19 +717,32 @@
 				9C07BFF81F99918F00255CA8 /* ZZBaseView.m in Sources */,
 				9C279E7B1F98A11200FBCC96 /* ZZFundRecordCell.m in Sources */,
 				9C04529F1F99A5140034AAAE /* ZZDrawView.m in Sources */,
+				9C529F0B1F9D7EAB009457E8 /* ZZBindAliPayVC.m in Sources */,
+				9CF2ED1E1F9DB98200A0BED0 /* ZZBankListPickerView.m in Sources */,
 				9C07BFEB1F998AC700255CA8 /* ZZSignInVC.m in Sources */,
 				9C279E681F9875EF00FBCC96 /* ZZBaseNavigationController.m in Sources */,
+				9CF2ED351F9F04DB00A0BED0 /* ZZAddPayPasswdVC.m in Sources */,
+				9CF2ED251F9DED6C00A0BED0 /* ZZPayPasswdSettingVC.m in Sources */,
+				9C70605A1F9F2F7100E6FB2A /* ZZMoneyHistoryVC.m in Sources */,
 				9C279E6B1F98760F00FBCC96 /* ZZRootTBVC.m in Sources */,
 				9C07BFFC1F99965800255CA8 /* ZZSignView.m in Sources */,
+				9C529F081F9D7D4D009457E8 /* ZZPayWayVC.m in Sources */,
 				9C529EF11F99DAB8009457E8 /* ZZFlipAnimatoinViewController.m in Sources */,
+				9C7060401F9F17C900E6FB2A /* ZZResetPayPasswdVC.m in Sources */,
 				9C07BFEE1F998AEF00255CA8 /* ZZSignInHeaderIV.m in Sources */,
 				9C279E621F9875BD00FBCC96 /* ZZBaseTableViewController.m in Sources */,
 				9C529EFA1F99F819009457E8 /* ZZTFViewController.m in Sources */,
+				9C7060541F9F23B800E6FB2A /* ZZMoneyRecordVC.m in Sources */,
+				9CF2ED2E1F9EE56E00A0BED0 /* ZZPasswdInputView.m in Sources */,
 				9C279E751F9888BB00FBCC96 /* ZZFundRecordVC.m in Sources */,
 				9C279E781F9889F100FBCC96 /* ZZFundHeaderView.m in Sources */,
+				9CF2ED1B1F9DB4F200A0BED0 /* ZZBindBankVC.m in Sources */,
+				9CF2ED281F9DF3E100A0BED0 /* ZZEditView.m in Sources */,
 				9C279E451F986E8500FBCC96 /* AppDelegate.m in Sources */,
 				9C279E6E1F9880D100FBCC96 /* ZZTableVC.m in Sources */,
 				9C279E651F9875CD00FBCC96 /* ZZBaseViewController.m in Sources */,
+				9CF2ED2B1F9E359F00A0BED0 /* ZZDiyTF.m in Sources */,
+				9C7060571F9F247100E6FB2A /* ZZMoneyRecordHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

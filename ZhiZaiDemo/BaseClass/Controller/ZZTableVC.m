@@ -36,6 +36,8 @@
         _dataTableView.delegate = self;
         _dataTableView.dataSource = self;
         
+        _dataTableView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
+        
         [self.view addSubview:_dataTableView];
     }
     
@@ -58,6 +60,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentify];
     if (nil == cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentify];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         cell.clipsToBounds = YES;
     }
     

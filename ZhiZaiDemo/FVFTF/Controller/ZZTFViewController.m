@@ -7,8 +7,11 @@
 //
 
 #import "ZZTFViewController.h"
+#import "ZZBankListPickerView.h"
 
 @interface ZZTFViewController ()
+
+@property (strong, nonatomic) UIPickerView *pickerView;
 
 @end
 
@@ -17,8 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+
     
-    JVFloatLabeledTextField *testTF = [[JVFloatLabeledTextField alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
+    JVFloatLabeledTextField *testTF = [[JVFloatLabeledTextField alloc] initWithFrame:CGRectMake(100, 200, 100, 40)];
     testTF.placeholder = @"hello";
     testTF.borderStyle = UITextBorderStyleRoundedRect;
     testTF.attributedPlaceholder =
@@ -26,8 +30,21 @@
                                     attributes:@{NSForegroundColorAttributeName: [UIColor orangeColor]}];
     testTF.floatingLabelTextColor = [UIColor orangeColor];
     testTF.floatingLabelActiveTextColor = [UIColor orangeColor];
+    testTF.floatingLabelYPadding = -8.0f;
+    testTF.floatingLabel.backgroundColor = [UIColor whiteColor];
+    testTF.inputView = self.pickerView;
     
     [self.view addSubview:testTF];
+}
+
+- (UIPickerView *)pickerView {
+    if (nil == _pickerView) {
+        _pickerView = [[UIPickerView alloc] initWithFrame:CGRectZero];
+        _pickerView.delegate = self;
+        _pickerView.dataSource = self;
+    }
+    
+    return _pickerView;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,14 +52,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+    return 1;
 }
-*/
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+    return 3;
+}
+
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+    return @"111";
+}
 
 @end

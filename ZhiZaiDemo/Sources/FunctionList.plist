@@ -26,5 +26,35 @@
 		<key>Description</key>
 		<string>动态输入框</string>
 	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>ZZPayWayVC</string>
+		<key>Description</key>
+		<string>绑定支付方式列表</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>ZZAddPayPasswdVC</string>
+		<key>Description</key>
+		<string>设置支付密码</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>ZZPayPasswdSettingVC</string>
+		<key>Description</key>
+		<string>自定义密码输入框</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>ZZResetPayPasswdVC</string>
+		<key>Description</key>
+		<string>修改支付密码</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>ZZMoneyRecordVC</string>
+		<key>Description</key>
+		<string>我的钱包</string>
+	</dict>
 </array>
 </plist>
