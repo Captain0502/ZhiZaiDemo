@@ -7,6 +7,7 @@
 //
 
 #import "ZZTableVC.h"
+#import <MJRefresh.h>
 
 @interface ZZTableVC ()
 
@@ -37,6 +38,9 @@
         _dataTableView.dataSource = self;
         
         _dataTableView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
+//        _dataTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+//            [_dataTableView.mj_header endRefreshing];
+//        }];
         
         [self.view addSubview:_dataTableView];
     }

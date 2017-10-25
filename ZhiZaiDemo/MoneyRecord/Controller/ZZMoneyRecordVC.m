@@ -27,11 +27,13 @@
     originFrame = CGRectMake(0, 0, SCREENWIDTH, 288);
     
     self.dataArray = @[@"",@"",@""].mutableCopy;
-    for (NSInteger i = 0; i < 100; ++i) {
-        [self.dataArray addObject:@(i)];
-    }
+//    for (NSInteger i = 0; i < 100; ++i) {
+//        [self.dataArray addObject:@(i)];
+//    }
     
     [self setupUI];
+    
+    [self loadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,7 +47,7 @@
 - (ZZMoneyRecordHeaderView *)headerView {
     
     if (nil == _headerView) {
-        _headerView = [[ZZMoneyRecordHeaderView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, 500)];
+        _headerView = [[ZZMoneyRecordHeaderView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, 300)];
     }
     
     return _headerView;
@@ -53,11 +55,18 @@
 
 
 - (void)setupUI {
-    
-//    [self.view addSubview:self.headerView];
+
+    [self.view addSubview:self.headerView];
     
     self.dataTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         [self.dataTableView.mj_header endRefreshing];
+    }];
+    
+    [self.dataTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(self.headerView.mas_bottom).offset(-60.0f);
+        make.left.mas_equalTo(self.view);
+        make.right.mas_equalTo(self.view);
+        make.bottom.mas_equalTo(self.view);
     }];
 }
 
@@ -69,7 +78,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return 210;
+    return 10;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -93,28 +102,6 @@
     
 }
 
-- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-    
-    static NSString *headerIndentify = @"HeaderIdentify";
-
-    UITableViewHeaderFooterView *headerView = [tableView dequeueReusableHeaderFooterViewWithIdentifier:headerIndentify];
-    if (nil == headerView) {
-        
-        CGFloat heiht = [self tableView:tableView heightForHeaderInSection:section];
-        
-        headerView = [[UITableViewHeaderFooterView alloc] initWithReuseIdentifier:headerIndentify];
-        headerView.frame = CGRectMake(0, 0, SCREENWIDTH, heiht);
-
-
-//        ZZMoneyRecordHeaderView *moneyView = [[ZZMoneyRecordHeaderView alloc] initWithFrame:CGRectOffset(headerView.bounds, 0, -10.0f)];
-//        moneyView.backgroundColor = UIColor.orangeColor;
-//
-//        [headerView.contentView addSubview:moneyView];
-    }
-    
-    return headerView;
-}
-
 #pragma mark - Private method
 
 - (void)loadData {
@@ -125,23 +112,15 @@
     
     CGFloat offsetY = scrollView.contentOffset.y;
     
-    if (offsetY < - 130) {
-        
-        offsetY = -130 + (offsetY + 130) * 0.3;
-        
-        if (offsetY < - 170) {
-            return;
-        }
-    }
-    
     NSLog(@"%f",offsetY);
     
+    if (-64 > offsetY || offsetY < 64) {
+        return;
+    }
+
     CGRect tempFrame = originFrame;
     tempFrame.origin.y -= offsetY + 88;
     self.headerView.frame = tempFrame;
-
-//    [self.view bringSubviewToFront:self.headerView];
-//    self.headerView.transform = CGAffineTransformMakeScale(2, 2);
 }
 
 @end

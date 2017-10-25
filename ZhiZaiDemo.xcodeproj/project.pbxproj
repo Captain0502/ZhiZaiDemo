@@ -50,6 +50,7 @@
 		9CF2ED2E1F9EE56E00A0BED0 /* ZZPasswdInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2ED2D1F9EE56E00A0BED0 /* ZZPasswdInputView.m */; };
 		9CF2ED351F9F04DB00A0BED0 /* ZZAddPayPasswdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2ED341F9F04DB00A0BED0 /* ZZAddPayPasswdVC.m */; };
 		AE848625BF5139EE1975885F /* libPods-ZhiZaiDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEC10180653BA56CD4EBC7A /* libPods-ZhiZaiDemo.a */; };
+		E4FFB7B51FA0281200BFCC9D /* ZZChargeRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FFB7B41FA0281200BFCC9D /* ZZChargeRecordVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,8 @@
 		9CF2ED2D1F9EE56E00A0BED0 /* ZZPasswdInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPasswdInputView.m; sourceTree = "<group>"; };
 		9CF2ED331F9F04DB00A0BED0 /* ZZAddPayPasswdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAddPayPasswdVC.h; sourceTree = "<group>"; };
 		9CF2ED341F9F04DB00A0BED0 /* ZZAddPayPasswdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAddPayPasswdVC.m; sourceTree = "<group>"; };
+		E4FFB7B31FA0281200BFCC9D /* ZZChargeRecordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZChargeRecordVC.h; sourceTree = "<group>"; };
+		E4FFB7B41FA0281200BFCC9D /* ZZChargeRecordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZChargeRecordVC.m; sourceTree = "<group>"; };
 		E62C7B2C083A0BF02CA5BF00 /* Pods-ZhiZaiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiZaiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiZaiDemo/Pods-ZhiZaiDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -230,7 +233,6 @@
 				9C279E6F1F98889000FBCC96 /* FundRecord */,
 				9C279E5D1F98754300FBCC96 /* Sources */,
 				9C279E591F98751600FBCC96 /* BaseClass */,
-				9C279E431F986E8500FBCC96 /* AppDelegate.h */,
 				9C279E441F986E8500FBCC96 /* AppDelegate.m */,
 				9C279E491F986E8500FBCC96 /* Main.storyboard */,
 				9C279E4C1F986E8500FBCC96 /* Assets.xcassets */,
@@ -246,6 +248,7 @@
 		9C279E591F98751600FBCC96 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				9C279E431F986E8500FBCC96 /* AppDelegate.h */,
 				9C279E5A1F98751600FBCC96 /* Controller */,
 				9C279E5B1F98751600FBCC96 /* Model */,
 				9C279E5C1F98751600FBCC96 /* View */,
@@ -481,6 +484,8 @@
 				9C7060531F9F23B800E6FB2A /* ZZMoneyRecordVC.m */,
 				9C7060581F9F2F7100E6FB2A /* ZZMoneyHistoryVC.h */,
 				9C7060591F9F2F7100E6FB2A /* ZZMoneyHistoryVC.m */,
+				E4FFB7B31FA0281200BFCC9D /* ZZChargeRecordVC.h */,
+				E4FFB7B41FA0281200BFCC9D /* ZZChargeRecordVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -715,6 +720,7 @@
 				9C04529A1F999DEF0034AAAE /* ZZSignHelpView.m in Sources */,
 				9C279E531F986E8500FBCC96 /* main.m in Sources */,
 				9C07BFF81F99918F00255CA8 /* ZZBaseView.m in Sources */,
+				E4FFB7B51FA0281200BFCC9D /* ZZChargeRecordVC.m in Sources */,
 				9C279E7B1F98A11200FBCC96 /* ZZFundRecordCell.m in Sources */,
 				9C04529F1F99A5140034AAAE /* ZZDrawView.m in Sources */,
 				9C529F0B1F9D7EAB009457E8 /* ZZBindAliPayVC.m in Sources */,

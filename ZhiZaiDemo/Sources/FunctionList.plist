@@ -56,5 +56,11 @@
 		<key>Description</key>
 		<string>我的钱包</string>
 	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>ZZChargeRecordVC</string>
+		<key>Description</key>
+		<string>chager Record</string>
+	</dict>
 </array>
 </plist>
